@@ -1,0 +1,42 @@
+.active-tab {
+  background: transparent !important;
+  background-image: url("https://svgshare.com/i/J4R.svg") !important;
+  position: relative;
+  z-index: 2;
+  background-size: 200px 100px !important;
+  width: 200px;
+  height: 107px;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+
+.inactive-tab {
+  background: transparent !important;
+  background-image: url("https://svgshare.com/i/J5j.svg") !important;
+  position: relative;
+  background-size: 200px 100px !important;
+  width: 200px;
+  height: 107px;
+  background-repeat:no-repeat;
+}
+
+.tab-component-content {
+  font-size: 16px;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+}
+
+@media (max-width:500px) and (min-width:300px) {
+  .active-tab {
+    background-size: 120px 100px !important;
+    width: 120px;
+    height: 107px;
+  }
+
+  .inactive-tab {
+    background-size: 120px 100px !important;
+    width:120px;
+    height: 107px;
+  }
+}

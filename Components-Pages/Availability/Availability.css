@@ -1,0 +1,541 @@
+.calendar-container {
+  flex: 1 1 auto;
+  padding: 0;
+  position: relative;
+  -webkit-box-flex: 1;
+}
+
+.availability-calendar {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+}
+
+.calendar-toolbar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.calendar-toolbar-label {
+  flex-grow: 1;
+  padding: 0 10px;
+  text-align: center;
+  font-family: inherit;
+  line-height: 1.5em;
+  color: inherit;
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.calendar-month-view {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0;
+  width: 100%;
+  height: 100%;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.calendar-month-header {
+  display: flex;
+  flex-direction: row;
+}
+.calendar-month-header-cell {
+  overflow: hidden;
+  flex: 1 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 3px;
+  text-align: right;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 1em;
+  min-height: 0;
+  border-bottom: 1px solid #ddd;
+  color: #999;
+}
+
+.calendar-month-row {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex: 1 0;
+  -ms-flex-preferred-size: 0px;
+  overflow: hidden;
+  height: 100%;
+  border-right: 1px solid #ddd;
+}
+
+.calendar-month-row-bckgnd {
+  display: flex;
+  flex-direction: row;
+  flex: 1 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 1px solid #ddd;
+}
+.calendar-month-day-bckgnd {
+  flex: 1 0;
+  border-left: 1px solid #ddd;
+}
+.calendar-month-today-bckgnd {
+  box-shadow: 0px 0px 8px rgb(158, 142, 142);
+}
+
+.calendar-month-row-content {
+  position: relative;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  z-index: 4;
+  min-height: 90px;
+}
+.calendar-row {
+  display: flex;
+  flex-direction: row;
+}
+.calendar-cell-date {
+  flex: 1 1;
+  min-width: 0;
+  padding-right: 5px;
+  text-align: right;
+}
+.calendar-cell-date-today {
+  font-weight: bolder;
+  font-size: large;
+}
+.calendar-cell-container {
+  padding: 2px 6px 1px;
+  flex-basis: 14.2857%;
+}
+.calendar-cell-morning {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+  background-color: rgb(241, 221, 224);
+}
+.calendar-cell-afternoon {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+  background-color: rgb(243, 243, 200);
+}
+.calendar-cell-evening {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin: auto;
+  line-height: 30px;
+  background-color: rgb(217, 217, 241);
+}
+
+/******* rule for the week ************/
+
+#terms-co-box.create-a-rule {
+  width: 95% !important;
+  max-width: 960px;
+  max-height: 520px;
+  height: 95% !important;
+  right: 17px;
+}
+#terms-co-box.create-a-rule .availability-table {
+  width: 90%;
+  margin: auto;
+}
+#terms-co-box.create-a-rule .compliments-header-bckg {
+  height: 25px;
+}
+.rule-row-content {
+  min-height: 45px;
+}
+
+.rule-cell-container {
+  padding: 7px 6px 1px;
+}
+.rule-header-cell {
+  text-align: center;
+  font-size: 14px;
+}
+.rule-check-filter + label:before {
+  margin-top: -2px;
+  margin-left: -20px;
+}
+
+.week-days {
+  justify-content: center;
+  font-size: 14px;
+  color: #999;
+}
+.weekday-container {
+  border: 1px solid #ddd;
+  justify-content: space-evenly;
+}
+
+.availability-rule-checks {
+  position: relative;
+  top: -6px;
+ 
+}
+
+.availability-rule-checks:before {
+  margin-top: 7px !important;
+  margin-left: -14px !important;
+  margin-right: 0px !important;
+}
+
+.availability-rule-icons {
+  left: -7px;
+  position: relative;
+  font-size: 16px;
+  
+}
+.sunrise-icon {
+  text-shadow: 1px 1px 7px #00fff7;
+}
+.day-icon {
+  text-shadow: 1px 1px 7px #ffef00;
+}
+.evening-icon {
+  text-shadow: 1px 1px 7px #0033ff;
+}
+.unaviable-icon {
+  text-shadow: 1px 1px 7px #db2828;
+}
+.aviable-icon {
+  text-shadow: 1px 1px 7px #00ff82;
+}
+.availability-rule-dates-section .DateRangePicker__Month {
+  margin-left: 0;
+
+}
+.availability-box-unavialable {
+  background: #ffc8c8;
+  background-color: #ffc8c8;
+  height: 60px;
+}
+
+.overflow-setup{
+  overflow-x: hidden !important;
+  overflow-y: auto;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .col-lg-4.col-12.col-sm-12.form-check.d-block.text-center {
+    line-height: 0px;
+  }
+  .col-lg-4.col-12.col-sm-12.form-check.d-block.text-center ul {
+    margin: 0;
+  }
+  .col-lg-4.col-12.col-sm-12.form-check.d-block.text-center label {
+    top: -12px;
+    left: 10px;
+  }
+  #terms-co-box.create-a-rule {
+    max-height: 486px;
+  }
+
+
+}
+/* mobile */
+@media only screen and (max-width: 499px) {
+  .fc-unthemed td.fc-today{
+    font-size: 14px !important;
+  }
+
+  #terms-co-box.daily-change-rule{
+    width: 280px !important;
+    height: 300px !important;
+    right: 0% !important;
+  }
+  .mobile-availability-margin{
+    margin-top: 10px !important;
+  }
+  .availability-table-header-card.w-500 {
+    width: 100%;
+   
+  }
+
+  .next-classes-title {
+    font-size: 16px;
+  }
+  .profile-list-qualifications.next-classes-text li {
+    font-size: 15px;
+  }
+
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+  font-weight: 900;
+  
+}
+/* days */
+.fc th 
+{
+font-size: 10px;
+}
+.w-500{
+ height:500px;
+
+}
+.av-table-header-first-line img{
+height: 30px;
+padding-bottom: 5px;
+}
+
+.av-table-header-second-line span img{
+height:15px;
+ 
+}
+.fc-toolbar.fc-header-toolbar {
+  margin-bottom: 1.5em;
+  display: inline-block;
+  vertical-align: middle;
+  
+}
+.fc-toolbar.fc-header-toolbar .fc-right {
+  margin-top: 1em;
+
+}
+.fc-button-group{
+float: right;
+}
+
+}
+
+
+
+/* tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+    font-weight: 900;
+    /* color: red; */
+  }
+
+  .availability-table-header-card.w-500 {
+    width: 100%;
+   
+  }
+  .av-table-header-first-line img{
+    height: 35px;
+    padding-bottom: 5px;
+    }
+    
+    .av-table-header-second-line span img{
+    height: 20px;
+     
+    }
+}
+
+/* desktop */
+@media only screen and (min-width: 961px) {
+  .fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+    font-weight: 900;
+    color: grey;
+  }
+  .availability-table-header-card.w-500 {
+    width: 70%;
+   
+  }
+  .av-table-header-first-line img{
+    height: 35px;
+    padding-bottom: 5px;
+    }
+    
+    .av-table-header-second-line span img{
+    height: 20px;
+     
+    }
+
+
+}
+
+
+
+/****** next classes ************/
+@media only screen and (max-width: 769px) {
+.next-classes-title {
+font-size: 16px;
+}
+.profile-list-qualifications.next-classes-text li {
+font-size: 15px;
+}
+}
+.w-500 {
+width: 500px;
+}
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+  font-weight: 900;
+
+ 
+}
+@media only screen and (max-width: 769px) {
+
+.availability-table-header-card.w-500 h4 {
+font-size: 10px !important;
+}
+.availability-table-header-card.w-500 h4.av-table-header-first-line {
+font-size: 15px !important;
+}
+}
+
+/******** calendar *********/
+.fc-bg .fc-today{
+  box-shadow: inset 0 0 0 2px #116E8A;
+  border-radius: 0px !important;
+}
+.fc-unthemed td.fc-today {
+  background-color:transparent !important;
+  border-color: #116E8A;
+  font-size: 14px !important;
+
+  color: black !important;
+}
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+  font-weight: 600;
+  /* float: left; */
+}
+.fc-day-grid-event {
+  background: linear-gradient(to right, #34f1c8 0%, #3bb4d8 100%);
+  border-color: #34f1c8;
+}
+.fc-title {
+  color: white;
+  font-size: initial;
+  font-weight: 200;
+  padding: 2px 10px;
+}
+.fc-button-primary {
+  background-color: #3bb4d8 !important;
+  border-color: #126e8a !important;
+}
+.fc-button-primary:hover {
+  background-color: #126e8a !important;
+  border-color: #053e50 !important;
+}
+.fc-button-group .fc-button {
+  border-radius: 2em;
+}
+/* .fc td{
+    padding: 10px;
+
+} */
+.fc th, .fc td {
+  /* border: 1px solid #bef2f7; */
+  background-color: white;
+  /* background-color: #d9f7fa; */
+  border-radius: 1em;
+
+}
+
+
+
+.fc-head-container .fc-widget-header{
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+  /* padding-bottom: 5px; */
+}
+
+.fc-unthemed td.fc-today{
+  font-size: 14px!important;
+  color: black;
+  /* border-style: dashed; */
+  /* border: 1px dashed grey; */
+  /* border-radius: 1em; */
+
+  
+}
+tr td .fc-day:hover{
+color: black;
+}
+
+
+.fc-toolbar h2{
+text-shadow: 2px 2px #cfd1d1;
+}
+
+.margin-style-rule-button{
+  margin-top: 20px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+
+/******* availability daily click ******/
+#changeDaily {
+  position: absolute;
+}
+#changeDaily div {
+  position: fixed;
+}
+#changeDaily div * {
+  position: relative;
+}
+#terms-co-box.daily-change-rule {
+  width: 340px ;
+  height: 260px ;
+  right: 5%;
+}
+.left-0 {
+  left: 0 !important;
+}
+.left-2 {
+  left: 2px !important;
+}
+.daily-rule-edit{
+  bottom: 40%;
+  height: 300px !important;
+}
+
+
+@media only screen and (min-width: 768px){
+  .fc-unthemed td.fc-today{/**/
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: black !important;
+  }
+
+
+  .fc-day:hover{
+    padding-top: 30px;
+    padding-left: 13px;
+    background-color: #0DE4D2;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    color: white !important;
+  }
+
+  .fc-day:hover:after{
+    content: 'Click to Set Your Availability';
+  }
+
+  .fc-past:hover{
+    background-color: white !important;
+  }
+
+  .fc-past:hover:after{
+    content:"" !important;
+  }
+
+}

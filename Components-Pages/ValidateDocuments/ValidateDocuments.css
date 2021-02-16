@@ -1,0 +1,88 @@
+  .transition + label:before {
+    transition: .05s all ease-in-out;
+  }
+  
+  
+/*   
+  
+    .availability-table-header {
+      cursor: pointer;
+    }
+  
+    .availability-table-header .active{
+      box-shadow: linear-gradient(to left, #34f1c8 0%, #3bb4d8 100%);
+      
+  } */
+  
+    .align-vertical{
+      vertical-align: top;
+      width: 33%;
+    }
+    
+    .table-width{
+      min-width: 25%;
+      margin: 2%;
+    }
+  
+    /* Page numbers */
+    .table-pagination {
+      position: inherit;
+      margin: 25px 0px;
+      text-align: center;
+      width: 100%;
+    }
+    .table-pagination span {
+      cursor: pointer;
+      color: black;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+      background-color: white;
+      align-content: center;
+    }
+  
+    .availability-table{
+      text-align: center;
+    }
+  
+    .table-pagination span:hover{
+      background-color:lightgrey;
+    }
+  
+  
+    .table-pagination .isActive {
+      margin: 0 2px;
+      background-color: #0099FF;
+      color: white;
+      border: 2px solid #0099FF;
+      box-shadow:  0 0 5px #000000;
+    }
+  
+    .pagination-boxes{
+      width: 34%;
+    }
+  
+    .page-toggle{
+      width: 33%;
+    }
+  
+  .align-vertical, .pagination-boxes, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+
+  .fa {
+    margin:auto
+  }
+
+
+  .profile-linkfont{
+    margin-left: 30px;
+  }
+
+  .center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+  }

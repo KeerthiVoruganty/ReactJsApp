@@ -1,0 +1,166 @@
+.bg-gradient {
+    background: linear-gradient(-45deg, #6eaeda, #75cad2, #51d4b6, #74f9db);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.55;
+    height: -webkit-fill-available;
+}
+
+.invoice-profile-container{
+    background: transparent !important;
+    width: 100% !important;
+}
+
+.invoice-title{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.margin-left-1{
+    margin-left: 20px;
+}
+
+.margin-top-1{
+    margin-top: 50px;
+}
+.margin-top-2{
+    margin-top: 120px;
+}
+
+.float-right{
+    float: right;
+}
+
+.invoice-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.margin-left-2{
+    margin-left: 50px;
+}
+.margin-right-2{
+    margin-right: 50px;
+}
+.margin-bottom-1{
+    margin-bottom: 30px;
+}
+
+.invoice-info h4{
+    font-size: 16px;
+}
+
+.font-small{
+    font-size: small;
+}
+.line-height-24{
+    line-height: 24px;
+}
+
+
+.availability-table-head-cell-subtotal{
+    padding: 50px 8px !important;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.display-flex-totals{
+    display: inline-flex;
+}
+
+.margin-left-47{
+    margin-left: 47px;
+}
+
+.display-block{
+    display: block;
+}
+.button-print-invoice{
+    color: #fff;display: block;
+    min-width: 158px;
+    border-radius: .25rem;
+    min-height: 40px;
+    font-size: 17px;
+    box-shadow: 1px 1px 1px #637370, 1px 1px 4px #1aa7a0;
+    background-image: linear-gradient(to right, #34f1c8 0%, #3bb4d8 100%);
+}
+.button-invoice{
+    background: linear-gradient(to right, #e29911 , #b80909);
+    box-shadow: 1px 1px 1px #637370, 1px 1px 4px #ec5432;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: .25rem;
+    min-height: 40px;
+    font-size: 17px;
+    margin-bottom: 5px;
+    padding: 8px;
+}
+.button-invoice:hover ~ .invoice-button-description {
+    color: red;
+}
+
+.font-medium{
+    font-size: medium !important;
+}
+.font-large{
+    font-size: large !important;
+}
+.width-500{
+    width: 500px !important;
+}
+
+.invoice-button-description{
+    text-align: right;
+    display: block;
+}
+
+.max-width-300{
+    max-width: 300px;
+}
+
+/*for booking tittle */
+
+.booking_invoice-area{
+    margin-top: 300px;
+}
+
+.font-size-booking-invoice{
+    font-size: 20px;
+}
+
+.right-booking-invoice-tittle{
+    margin-top: 80px;
+    position: absolute;
+    right: 60px;
+
+}
+
+.left-booking-invoice-tittle{
+    position: absolute;
+    margin-top: 80px;
+    left: 60px;
+}
+
+.fist-line-tittle{
+    margin-right: 70px;
+    margin-bottom: 12px;
+}
+
+.second-line-tittle{
+    margin-right: 20px;
+    margin-bottom: 12px;
+}
+
+.third-line-tittle{
+    margin-right: 55px;
+}

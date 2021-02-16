@@ -1,0 +1,119 @@
+.badge-home-carousel{
+    margin: 10px;
+}
+
+
+.home-carousel-badge .badge-container{
+    height: 165px;
+    width: 165px;
+    margin: 20px auto;
+}
+
+.home-carousel-badge .number-of-title{
+    font-size: 20px;
+    width: 20%;
+}
+
+.home-carousel-badge .badge-container img{
+    width: 64px;
+}
+
+.home-carousel-badge .badge-title{
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 1024px){
+    .home-carousel-badge .badge-container{
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home-carousel-badge .badge-container{
+        height: 100px;
+        width: 100px;
+    }
+
+    .home-carousel-badge .number-of-title{
+        font-size: 12px;
+    }
+    .home-carousel-badge .badge-container img{
+        width: 40px;
+    }
+    
+    .home-carousel-badge .badge-title{
+        font-size: 11px;
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .home-carousel-badge .badge-container{
+    height: 75px;
+    width: 75px;
+    margin: 0px 5px;
+    }
+
+    
+    .home-carousel-badge .number-of-title{
+        font-size: 10px;
+       
+    }
+    .home-carousel-badge .badge-container img{
+        width: 30px;
+    }
+    
+    .home-carousel-badge .badge-title{
+        font-size: 8px;
+    }
+
+    .pl-5, .px-5 {
+        padding-left: 2rem!important;
+    }
+    
+    .pr-5, .px-5 {
+        padding-right: 2rem!important;
+    }
+
+} 
+
+@media screen and (max-width: 500px){
+
+    .home-carousel-badge .badge-container{
+        height: 75px;
+        width: 75px;
+        margin: 0px 1px;
+    }
+    .home-carousel-badge .number-of-title{
+        font-size: 9px;
+        width: 18%;
+    }
+    .home-carousel-badge .badge-title{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .home-carousel-badge .badge-container{
+        height: 60px;
+        width: 60px;
+        margin: 0px 1px;
+    }
+    .home-carousel-badge .number-of-title{
+        font-size: 8px;
+        top: 4px;
+        right: 7px;
+    }
+    .home-carousel-badge .badge-title{
+        font-size: 7px;
+        /* line-height: 9px; */
+    }
+
+    .home-carousel-badge .badge-container img{
+        width: 23px;
+    }
+}

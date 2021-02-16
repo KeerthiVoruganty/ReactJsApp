@@ -1,0 +1,593 @@
+.text-lg {
+  font-size: large;
+}
+.title-of-the-page {
+  top: 252px;
+  z-index: 1;
+  font-size: 40px;
+  left: 40px;
+  position: relative;
+}
+.resume-container-transparent {
+  width: 95%;
+  background-color: transparent;
+  color: #5f5c5c;
+  overflow: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.resume-container-transparent::-webkit-scrollbar {
+  width: 0 !important;
+}
+.margin-top-01 {
+  margin-top: 1px;
+}
+
+.resume-page-card {
+  min-height: 400px;
+  height: fit-content;
+  border: 0;
+  display: flex;
+  position: relative;
+  word-wrap: break-word;
+  background: #f9f6f6;
+  box-shadow: 5px 5px 30px #fff;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  flex-direction: column;
+  margin-top: -407px;
+  width: 100%;
+  overflow: inherit;
+  /* overflow-x: hidden; */
+}
+
+.av-tab-shadow-all {
+  box-shadow: 0 0px 9px 0 rgba(0, 0, 0, 0.3) !important;
+}
+.av-tab-shadow-all h4 {
+  background: white;
+  position: inherit;
+  align-self: center;
+  top: -22px;
+  width: fit-content;
+  padding: 7px;
+}
+
+.resume-overflow {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.resume-title {
+  font-size: 40px;
+}
+.resume-list{
+    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.resume-delete-qualification {
+  display: flex;
+  justify-content: flex-end;
+  line-height: 40px;
+  max-width: 10%;
+  margin-right: -38px;
+}
+.profile-list-first-line {
+  font-weight: 800;
+  color: #484c50;
+}
+.gray-shadow-box {
+  box-shadow: 0 1px 14px 0 rgba(0, 0, 0, 0.24) !important;
+}
+
+.resume-date {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+  line-height: 65px;
+  max-width: 50%;
+}
+.referee-center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+/* qualification model */
+.model-for-qualificationForm .dot {
+  right: -5%;
+  top: -10px;
+  background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+}
+
+.model-for-qualificationForm .form-control {
+  box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10afff;
+  margin-bottom: 6px;
+}
+
+.model-for-qualificationForm {
+  padding-top: 10px;
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 5%;
+  width: 66%;
+  max-height: 650px;
+  height: fit-content;
+  right: 12%;
+  background: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #909092;
+}
+
+.modal-dialog {
+  max-width: 80%;
+}
+
+.model-for-qualificationForm .modal-header {
+  padding-top: 30px;
+  color: #79cbca !important;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  border: none;
+}
+
+.model-for-qualificationForm .model-main-content {
+}
+
+.model-for-qualificationForm .modal-content {
+  background: whitesmoke;
+  border: none;
+}
+.model-for-qualificationForm .modal-body {
+  /* overflow-y: scroll;
+    overflow-x: hidden; */
+}
+
+.model-for-qualificationForm .qualification-footer {
+  margin-top: 65px;
+}
+
+.share-profile-modal {
+  width: 40%;
+  margin-left: 30%;
+}
+
+/* pdform model */
+.model-for-pdform .dot {
+  right: -10%;
+  top: -3%;
+  background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+}
+
+.model-for-pdform .form-control {
+  box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10afff;
+  margin-bottom: 6px;
+}
+
+.model-for-pdform {
+  padding-top: 10px;
+  position: absolute;
+  margin-left: 22%;
+  margin-top: 5%;
+  width: 60%;
+  min-width: 400px;
+  height: 520px;
+  right: 12%;
+  background: whitesmoke;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px #909092;
+}
+
+.model-for-pdform .modal-header {
+  padding-top: 30px;
+  color: #79cbca !important;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  border: none;
+}
+
+.model-for-pdform .model-main-content {
+  margin-top: 30px;
+}
+
+.model-for-pdform .modal-content {
+  background: whitesmoke;
+  border: none;
+}
+
+.model-for-pdform .qualification-footer {
+  margin-top: 120px;
+}
+
+/* pEform model */
+.model-for-peform .dot {
+  right: -10%;
+  top: -3%;
+  background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+}
+
+/********** add qualifications buttons **************/
+.no-top-radius {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* delete qualification buttons */
+
+* {
+  outline: none;
+}
+.delete-box {
+  position: relative;
+  height: 30px;
+}
+.delete-box button {
+  border: none;
+  background: white;
+  width: 80px;
+  height: 30px;
+  outline: none;
+}
+
+.box {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.box-left {
+  position: relative;
+  height: 26px;
+  width: 25px;
+  background-color: #e74c3c;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 20px;
+  margin: auto;
+  cursor: pointer;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.fa-times {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  font-size: 21px !important;
+  color: #fff;
+}
+
+.box-right {
+  position: relative;
+  height: 26px;
+  width: 5px;
+  background-color: #e74c3c;
+  top: 0;
+  bottom: 0;
+  left: -40px;
+  right: 0;
+  margin: auto;
+  transition: 0.5s;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.fa-check {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  font-size: 20px !important;
+}
+
+.bar {
+  height: 22px;
+  width: 0px;
+  background-color: lightgray;
+  position: relative;
+  top: 2px;
+  bottom: 0px;
+  left: 25px;
+  right: 0;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.cl-bar2 {
+  width: 25px;
+}
+
+.cl-box2 {
+  left: -15px;
+}
+
+/****** hire me alert *************/
+.w-20 {
+  width: 20%;
+}
+.h-67 {
+  height: 67%;
+}
+.margin-t-25 {
+  margin-top: 25px !important;
+}
+.hireme-alert-datepicker .DateRangePicker__Month {
+  margin-left: 0;
+  width: inherit;
+}
+/* in personal details, there is the dropdown which uses a select component.
+here's the class aoutogenerated which needs to be changed in order to create the space necessary to insert an icon next to the select */
+.css-1hwfws3 {
+  padding-left: 24px !important;
+}
+
+.css-1wa3eu0-placeholder {
+  font-size: 0.84rem;
+}
+
+.css-b8ldur-Input div input {
+  box-shadow: none;
+}
+
+.check-green {
+  color: rgb(32, 209, 32);
+}
+
+.check-gray {
+  color: gray;
+}
+
+.check-green,
+.check-gray {
+  font-size: 15px;
+}
+.check-green,
+.check-gray:hover {
+  bottom: 50px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.check-span {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  color: rgb(20, 17, 17);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+    0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 0;
+  left: 90px;
+  padding: 5px 7px;
+  z-index: 4;
+  font-size: 14px;
+  border-radius: 2px;
+  background: rgb(47, 224, 222);
+  visibility: hidden;
+  opacity: 0;
+  -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.check-span:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgb(47, 224, 222);
+  position: absolute;
+  bottom: -5px;
+  left: 40px;
+}
+
+.mr-31 {
+  margin-right: 31px;
+}
+
+.icon-margin-top {
+  margin-top: 19px !important;
+}
+
+.br-4 {
+  border-radius: 4px;
+}
+
+.currently-working-label {
+  position: relative;
+  top: 4px;
+}
+.react-datepicker-wrapper {
+  display: block;
+}
+
+.react-datepicker-popper {
+  z-index: 4 !important;
+}
+
+#watermark {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  opacity: 0.5;
+  z-index: 99;
+  color: white;
+}
+
+@media (max-width:992px){
+  .mobile-size-for-resume-box{
+    padding-left:2rem !important;
+    padding-right: 2rem !important;
+  }
+  .resume-page-card{
+    margin-top: -300px;
+  }
+}
+
+/****** mobile ************/
+@media (max-width:500px) and (min-width:300px) {
+  .prof-otherinfo-row{
+    margin-top: -30px;
+    margin-bottom: 60px;
+  }
+
+  .modal-backdrop {
+    width: 100vw;
+  }
+
+  .model-for-qualificationForm .dot{
+    right: -6%;
+  }
+  .model-for-qualificationForm .modal-content{
+    /* margin-left: 10%; */
+  }
+  .button-in-share-group-1{
+    margin-bottom: 10px;
+    margin-left: 35% !important;
+  }
+  .preview-profile-link-in-share{
+    font-size: 18px !important;
+  }
+  .model-for-qualificationForm{
+    min-width: 0px;
+  }
+
+  .model-for-pdform, .model-for-qualificationForm {
+    margin-left: 0;
+    min-width: unset;
+    width: 95%;
+    margin: auto;
+    right: 0;
+    top: 10%;
+    height: 80%;
+  }
+
+  .modal-dialog {
+    margin: 20px auto 0 auto;
+    max-width: 100%;
+  }
+
+  .modal-content {
+    margin: 0;
+  }
+
+  .model-for-pdform .model-main-content {
+    margin-top: 0;
+  }
+
+  .model-for-pdform .dot, .model-for-qualificationForm .dot {
+    right: -8%;
+    top: -15px;
+  }
+
+  .share-profile-modal {
+    height: 40%;
+  }
+
+  .share-profile-modal .dot {
+    top: -10px;
+    right: 5% !important;
+  }
+
+  .modal-title{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .model-for-pdform .qualification-footer {
+    margin-top: 40px;
+  }
+
+  .cover-margin-for-deliver{
+    padding-top: 20px !important;
+  }
+  .resume-container-transparent{
+    margin-top: 70px;
+  }
+  .availability-table-header-card{
+    margin-top: -5px !important;
+    padding-top: 8px !important;
+    height: 65px !important;
+  }
+  .availability-header-behind{
+    height: 35px;
+  }
+  .margin-can-deliver{
+    font-size: 17px !important;
+    margin-top: 5px !important;
+    font-weight: 500 !important;
+  }
+  .resume-page-card {
+    margin-top: -363px;
+    margin-bottom: 0px;
+    background: white;
+    box-shadow: none;
+  }
+
+  .empty-folder-container{
+    width: 70%;
+  }
+
+  .mobile-share-profile-box-style-1{
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+  }
+
+  .mobile-share-profile-box-style-2{
+    padding-right: 25px !important;
+    padding-left: 25px !important;
+  }
+  /* it covers the tabs area */
+  .mobile-for-share-button {
+    /* position: relative;
+    top: 92px; */
+  }
+  .mobile-share-navbar-content{
+    display: none;
+  }
+  .logo-position-jump{
+    margin-left: 70%;
+  }
+
+  .referee-center {
+    width: 100%;
+  }
+}
+
+
+
+.button-in-share-group{
+  text-align: center;
+}
+
+.link-icon-group-style{
+  margin-top: 10px;
+}
+.linkedin-shareprofile{
+  display: none;
+}
+.facebook-shareprofile{
+  display: none;
+}
+.twitter-shareprofile{
+  display: none;
+}
+.button-in-share-group-1{
+  margin-left: 45%;
+  margin-bottom: 10px;
+}
+.edit-for-resume{
+  color: rgb(52, 241, 200);
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: 18px;
+}
+.react-datepicker-wrapper .form-control{
+  padding: .7rem .75rem !important;
+}

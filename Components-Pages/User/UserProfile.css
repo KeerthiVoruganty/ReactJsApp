@@ -1,0 +1,669 @@
+.height-580{
+  height: 580px;
+}
+.margintop-90{
+  margin-top: 90px;
+}
+ .dropdown-box-no-padding{
+  padding-left: 0px !important;
+}
+
+.input-radio-buttons{
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.input-radio-buttons input{
+  box-shadow: none;
+  box-sizing: unset;
+}
+.input-radio-buttons input:focus{
+  box-sizing: unset;
+  box-shadow: none !important;
+}
+
+.input-radio-buttons label{
+  line-height: 13px;
+}
+
+.radio{
+  margin-bottom: 1rem;
+}
+
+.css-26l3qy-menu{
+  z-index: 3 !important;
+}
+/* availability-table-header is the header on left, for PERSONALE DETAIL*/
+/* availability-table-header-center is the header in the middle, for IIDENTIFICATION*/
+/* availability-table-header-end is the header on right, for EMERGENCY CONTACT*/
+.availability-table-header-center{
+  display: inline-block;
+  text-align-last: center;
+  width: 100%;
+}
+
+.availability-table-header-end{
+  float: right;
+}
+
+.user-profile-form-input{
+  height: 36px;
+}
+
+.userNavigation {
+  margin-top: 6px;
+  display: flex;
+  position: absolute;
+  /* width: calc(100% + -135px); */
+  width: 90%;
+  justify-content: space-between;
+}
+.personal-info-navigation-link{
+  padding: 15px;
+  /* min-width: 30%; */
+  margin-top: 2px;
+  text-decoration: none !important;
+  color: #737171;
+  font-size: 18px;
+  border: 2px solid #e0e0e0;
+  border-radius: 3px;
+  background-color: #fffbfb;
+  box-shadow: 2px 2px 9px rgba(119, 119, 119, 0.5);
+}
+
+
+
+.user-links{
+  padding: 15px;
+  /* min-width: 30%; */
+  margin-top: 2px;
+  text-decoration: none !important;
+  color: #737171;
+  font-size: 18px;
+  border: 2px solid #e0e0e0;
+  z-index: 1;
+  border-radius: 3px;
+  background-color: #fffbfb;
+  box-shadow: 2px 2px 9px rgba(119, 119, 119, 0.5);
+}
+
+.user-links:hover{
+  color: #737171;
+  box-shadow:  1px 1px 10px #1beabd, 1px 1px 10px #10AFFF;
+}
+
+.user-links-active{
+  background: linear-gradient(to right, #34f1c8a6 0%, #3bb4d896 100%);
+  border: none;
+  color: white !important;
+}
+/**************** TABS FOR STEPS OF USER PROFILE **********/
+
+
+.connecting-line {
+  height: 2px;
+  background: #e0e0e0;
+  position: absolute;
+  width: 90%;
+  top: 24px;
+  align-self: center;
+  z-index: 1;
+}
+
+
+
+
+.user-table-header{
+  display: inline-block;
+  border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+  color: white;
+  margin: 0 15px;
+  padding: 0;
+  position: relative;
+  z-index: 1 !important;
+  background: transparent;
+  border-bottom: none;
+}
+
+.user-table-header-card{
+  min-width: 30%;
+  background: linear-gradient(to right, #34f1c8 0%, #3bb4d8 100%);
+  box-shadow: 2px 2px 10px rgba(119, 119, 119, 0.5);
+  float: none;
+  display: inline-block;
+  padding: 15px;
+  margin-top: -20px;
+  margin-right: 0;
+  border-radius: 3px;
+}
+
+
+/* in personal details, there is the dropdown which uses a select component.
+here's the class aoutogenerated which needs to be changed in order to create the space necessary to insert an icon next to the select */
+.css-1hwfws3{
+  padding-left: 24px !important;
+}
+
+.css-1wa3eu0-placeholder{
+  font-size: .84rem;
+}
+
+.css-b8ldur-Input div input{
+  box-shadow: none;
+}
+
+.check-green{
+  color: rgb(32, 209, 32);
+}
+
+.check-gray{
+  color: gray;
+}
+
+.check-green, .check-gray{
+  font-size: 15px;
+}
+.check-green, .check-gray:hover{
+  bottom: 50px;
+  visibility:visible;
+  opacity:1;
+}
+
+.check-span{
+  display: flex;
+    justify-content: center;
+  width: fit-content;
+  color:rgb(20, 17, 17);
+  box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+  position:absolute;
+  bottom:0;
+  left:90px;
+  padding:5px 7px;
+  z-index:4;
+  font-size:14px;
+  border-radius:2px;
+  background: rgb(47, 224, 222);
+  visibility:hidden;
+  opacity:0;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.check-span:before {
+  content:'';
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid rgb(47, 224, 222);
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+.mr-31{
+  margin-right: 31px;
+}
+
+.icon-margin-top{
+  margin-top: 19px !important;
+}
+
+.br-4{
+  border-radius: 4px;
+}
+
+/*****  span hovered ******/
+ .span-hovered {
+   position: relative;
+ }
+
+ .span-hovered .span-hovered-content {
+   visibility: hidden;
+   text-align: center;
+   color: #fff;
+   width: 500px;
+   position: absolute;
+   top:0px;
+   /* right: 30px; */
+   left: 150px;
+   padding: 10px;
+   padding-left:2px;
+   padding-bottom: 2px;
+   padding-top: 1px;
+   z-index: 10;
+   font-size: 14px;
+   border-radius: 2px;
+   background: rgb(47, 224, 222);
+   line-height: 20px;
+   box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+   transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+ .span-hovered:hover .span-hovered-content {
+    visibility: visible;
+ }
+
+.span-hover-fix{
+  width: 300px !important;
+  right: -100px !important;
+}
+
+ /********** radio buttons forms **********/
+ .radio-button-margin{
+    margin-bottom: 1rem;
+ }
+
+ .span-hovered:hover .span-hovered-content {
+   visibility: visible;
+ }
+
+ /* For Date picker */
+ .color.color {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 10px 10px 5px;
+  border-bottom: 1px solid #ebebeb!important;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 22px;
+  box-shadow: none;
+  font-family: Open Sans,sans-serif;
+}
+
+.cXcRCo{
+  z-index: 2 !important;
+  max-width:100% !important;
+  border-width: 2px !important;
+}
+
+.fXdwOZ{
+  min-width:100% !important;
+}
+  /********** datepicker icon **********/
+  .datapicker-icon{
+    margin-top: 3px !important;
+    margin-left: 2px !important;
+  }
+  .datepicker input{
+    line-height: 14px;
+    height: 36px;
+    color: #636c7b !important;
+    border-radius: 4px;
+  }
+
+  .lineheight-17{
+    line-height: 17px;
+  }
+  .margintop-60{
+    margin-top: 60px;
+  }
+
+  .calendar{
+    padding: 6px !important;
+
+  }
+
+
+  /************ upload files ****************/
+
+  .uploaded-file-name{
+    font-size: 13px;
+  }
+
+.uploaded-file-delete-icon{
+  line-height: 17px;
+}
+
+  /*****************/
+.balloon-radio-idenntification-label{
+  margin-top: 4px;
+  text-align: left;
+}
+
+.balloon-radio-idenntification-label-2{
+  margin-top: 4px;
+  text-align: left;
+
+}
+
+.balloon-radio-volunteer-label{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.balloon-radio-professional-label{
+  margin-left: 4px;
+  text-align: left;
+}
+
+.contact_numberConfirmation{
+  text-align: center;
+  /* margin-bottom: 40px; */
+  color: #79CBCA !important;
+}
+
+.contact_numberConfirmation1{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.popupConfirmNumber .row {
+  margin: 0px;
+  margin-top: 60px;
+}
+
+.m-5 input {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.row-input-identification{
+  height: 30px;
+}
+
+/* #dvVisaHolder{
+  padding-top: 20px ;
+} */
+
+/* mobile */
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .adaptation-for-radio-button{
+    width: 250px;
+    padding-left: 20px;
+  }
+  .adaptation-for-radio-button-1{
+    width: 250px;
+  }
+  .calendar-ic{
+    line-height:27px !important;
+    left:4% !important;
+    /* max-height: 100%;
+    width: 100%; */
+    /* background-color: lightblue; */
+}
+}
+
+
+/* tablet */
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .adaptation-for-radio-button{
+    width: 250px;
+  }
+  .adaptation-for-radio-button-1{
+    width: 250px;
+  }
+
+  .calendar-ic{
+    line-height:27px !important;
+    left:-16% !important;
+    max-height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+}
+
+/* desktop */
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .adaptation-for-radio-button{
+    width: 230px;
+  }
+  .adaptation-for-radio-button-1{
+    width: 240px;
+  }
+  .calendar-ic{
+
+    line-height:27px !important;
+    left:-15% !important;
+    max-height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+}
+
+@media only screen and (min-width: 800px)and (max-width:919px) {
+  .adaptation-for-radio-button{
+    width: 230px;
+  }
+  .adaptation-for-radio-button-1{
+    width: 240px;
+  }
+  .calendar-ic{
+
+    line-height:27px !important;
+    left:-13% !important;
+    max-height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+}
+
+@media only screen and (min-width: 920px) {
+  .adaptation-for-radio-button{
+    width: 230px;
+  }
+  .adaptation-for-radio-button-1{
+    width: 240px;
+  }
+  .calendar-ic{
+
+    line-height:27px !important;
+    left:-8% !important;
+    max-height: 100%;
+    width: 100%;
+    /* background-color: green; */
+}
+
+}
+
+
+/* police check form */
+/* .input-icon i{
+padding: 10px;
+} */
+/*
+select #police_check_result .form-control .user-profile-form-input option{
+  padding-left: 10px;
+} */
+
+/* .form-group .input-icon .form-control {
+
+  padding-left: 10rem;
+
+} */
+.form-group select{
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF;
+  height: 34px;
+}
+
+.form-group select .form-control ::before{
+
+  padding-left: 3rem;
+
+
+}
+
+.form-group .input-icon select .form-control #issuing_office{
+  padding-left: 2rem;
+
+}
+/* .form-group input{
+  padding-bottom: 9px;
+} */
+
+/* .mdi-calendar:before{
+  /* padding-left: 16rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 153px;
+  margin-left: -90px;
+  transform: translate(-50%, -50%);
+
+} */
+
+.form-group .input-icon{
+  position: relative;
+}
+.input-icon i{
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-size: 1.5rem;
+  padding-left: 4px;
+  color: #c5ccd4;
+  z-index: 2;
+}
+.input-icon .mdi-sign-direction{
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  font-size: 1.5rem;
+  padding-left: 4px;
+  color: #c5ccd4;
+  z-index: 2;
+}
+.form-group .input-icon .form-control {
+  /* padding-left: 1rem; */
+  padding-bottom: 8px;
+}
+/* #postcode2 {
+  padding-left: 2.3rem;
+}
+#postcode {
+  padding-left:  2.3rem;
+} */
+
+.form-control-no-icon {
+  padding-left: 0.75rem !important;
+}
+
+/* .input-icon i .mdi-calendar{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 1.5rem;
+  padding-left: 4px;
+  color: #c5ccd4;
+  z-index: 2;
+} */
+
+/* .calendar-ic{
+  line-height:27px !important;
+  left:-8% !important;
+  max-height: 100%;
+  width: 100%;
+} */
+
+/* Toast Overide */
+.notification-wrapper{
+
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.toast-notification {
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+  background: #006e78;
+  /* opacity: 0.5; */
+  font: inherit;
+  padding: 0px;
+  color: #999;
+  cursor: pointer;
+  position: fixed;
+  display: block;
+  justify-content:center;
+  right: 0;
+  width: 100% !important;
+  height: 50px;
+  margin-bottom: 0;
+  display: block !important;
+
+
+
+}
+.toast-notification div{
+
+  background: #006e78;
+
+  right: 0;
+  top:0;
+  right: 0;
+
+  margin-bottom: 0;
+
+}
+
+.toast-notification span{
+
+  background: #006e78;
+
+
+  color: rgb(5,5,5);
+  margin-bottom: 0;
+
+  /* height: 20px; */
+
+}
+#exitpreview{
+font-size: 8px;
+float: right;
+width: 10%;
+/* margin-left: 450px; */
+clear: right;
+position: fixed;
+right:0;
+top:8px;
+
+}
+#iconclose{
+  float: right;
+width: 10%;
+/* margin-left: 450px; */
+clear: right;
+position: fixed;
+right:0px;
+top: 20px;
+}
+
+#notify-text{
+  /* left: 30%;
+position: fixed;  */
+float:left;
+width: 100%;
+margin: auto;
+font-size: 16px;
+/* padding-top: 5px; */
+}
+
+.form-group .form-control{
+  height: 34px;
+}
+.mdi .mdi-sign-direction{
+  position: absolute;
+  top: 7px;
+  left: 3px;
+}
+#prefered_work_location{
+  /* padding-left: 0.5rem;
+  border-style: none; */
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF;
+  height: 34px;
+}
+/* #btnChnage{
+  height: 34px;
+} */
+.react-datepicker-wrapper .react-datepicker__close-icon::after{
+  font-size: 12px;
+  top:3px;
+  /* padding-bottom: 6px; */
+}
+
+.allow-overflow {
+  overflow: visible;
+}

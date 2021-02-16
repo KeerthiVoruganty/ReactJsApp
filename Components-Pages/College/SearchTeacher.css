@@ -1,0 +1,125 @@
+.college-profile-picture{
+    background-image: url('../../assets/img/greenwich_logo.png');
+    background-repeat: round;
+    background-size: auto;
+    height: inherit;
+}
+
+.people-background-picture {
+    flex: 1 1 auto;
+    position: relative;
+    -webkit-box-flex: 1;
+    margin: 60px 20px;
+    background: url(../..//assets/img/College-background.png);
+    /* background-image: url('../../assets/img/b&w-office-staff.png'); */
+    background-size: cover;
+    background-position: center;
+    margin-top: 14px;
+}
+
+/* filter by date / availability  */
+.br-20{
+    border-radius: 20px;
+}
+
+.filter-by-date{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 46px;
+    background-color: #6ea2a5;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.top-10{
+    top: 10px !important;
+}
+.height-55{
+    height: 55px;
+}
+.lh-104{
+    line-height: 104px;
+}
+.top-30{
+    top: 30%;
+}
+
+.button-red{
+    background: linear-gradient(to right, #e29911 , #b80909);
+    box-shadow: 1px 1px 1px #637370, 1px 1px 4px #ec5432;
+}
+.height-100vh{
+    height: 100vh;
+}
+
+.large-box{
+    min-width: 300px;
+}
+.round-avatar-college-people-container{
+    border-radius: 50%;
+    border: solid 3px rgb(27, 142, 187);
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+.round-avatar-college-people{
+    background-image: url('../../assets/img/rt-profile-placeholder.jpg');
+    background-repeat: round;
+    background-size: auto;
+    height: inherit;
+}
+
+.lh-18{
+    line-height: 18px;
+}
+.lh-14{
+    line-height: 14px;
+}
+.lh-30{
+    line-height: 30px;
+}
+.color-blue{
+    color: #5dacfa;
+}
+
+/********* classes *********************/
+.class-content-drawer{
+    display: none;
+    height: 0;
+    width: 260px;
+    z-index: 5;
+    position: absolute;
+    background: white;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-top: 20px;
+    top: 42px;
+    left: 15px;
+    box-shadow: 0 5px 14px 0 rgba(0, 0, 0, 0.24) !important;
+    color: #5f5c5c;  
+    -webkit-transition: all 4s; /* Safari prior 6.1 */
+    transition: all 4s;
+}
+.class-header-drawer:hover ~ .class-content-drawer{
+    display: block;
+    height: fit-content;
+    width: 260px;
+}
+ .class-header-drawer{
+    width: 260px;
+}
+.class-content-drawer:hover{
+    display: block;
+    height: fit-content;
+}
+/*
+.class-content-drawer .class-content{
+    
+}
+
+.class-content-drawer div{
+    display: block;
+} */

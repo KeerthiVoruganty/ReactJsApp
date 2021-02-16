@@ -1,0 +1,69 @@
+
+
+.display-box {
+    position: absolute;
+    width: 40%;
+    height: 300px;
+    left: 30%;
+    top: 10%;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px #909092;
+}
+
+/* .display-box .status-alert-message{
+    top: 16%;
+    height: 64%;
+    overflow: auto;
+} */
+
+.display-box .dot{
+right: 2%;
+background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+}
+
+.display-box h1{
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    color: #FCFCFC;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.terms-co-box-subtitle{
+    margin-bottom: 20px;
+}
+.display-box h4 {
+    font-size: 15px;
+    color: #5e5e5e;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 5px 50px;
+    margin: 0px;
+  }
+
+.display-box p {
+    font-size: 11px;
+    color: #5e5e5e;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 7px 56px;
+  }
+
+.profile-container-transparent {
+    background: none;
+    box-shadow: none;
+}
+/* #txtFN{
+    text-transform: uppercase
+} */
+
+/* #txtLastName{
+    text-transform: uppercase
+} */
+
+.dropdown-box{
+height: 33px;
+}

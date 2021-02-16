@@ -1,0 +1,291 @@
+#i-abn-info{
+   width: fit-content !important;
+   height: 18px;  
+}
+
+.span-hovered_a{
+    float: left !important;
+    padding-left: 3px;
+    /* position: relative;    */
+}
+
+.span-hovered_a .span-hovered_a-content {
+    visibility: hidden;
+    text-align: center;
+    color: #fff;
+    width: 500px;
+    position: absolute;
+    top:-20px;
+    right: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    z-index: 10;
+    font-size: 14px;
+    border-radius: 2px;
+    background: rgb(47, 224, 222);
+    line-height: 20px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .span-hovered_a:hover .span-hovered_a-content {
+     visibility: visible;
+     
+  }
+
+  .span-hovered_a .span-hovered_a-content-small {
+    visibility: hidden;
+    text-align: center;
+    color: #fff;
+    width: 500px;
+    position: absolute;
+    top:-20px;
+    /* right: 30px; */
+    left:257px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 1px;
+    z-index: 10;
+    font-size: 14px;
+    border-radius: 2px;
+    background: rgb(47, 224, 222);
+    line-height: 20px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .span-hovered_a:hover .span-hovered_a-content-small {
+     visibility: visible;
+     
+  }
+
+  .radio_label{
+      padding-left: 10px !important;
+      /* padding-right: 30px !important; */
+      padding-bottom: 10px;
+      
+  }
+
+  .radio_border{
+    display: block; 
+    position: relative;
+    padding-left: 100px; 
+    /* padding-bottom: 150px; */
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+     border-width: 2px;
+     border-style: solid; 
+     border-color: rgb(224, 224, 224); 
+     border-radius: 7px; 
+     width: 100%;
+     height: 25%;
+     padding: 10px;
+     font-size: 12px;
+     /* padding-right:25px;     */
+     /* display: inline-block;  */
+  }
+
+
+  /* Create a custom radio button */
+  .checkmark{
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    right:0px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee; 
+    border-radius: 50%; 
+    border-style: solid; 
+    border-color: rgb(158, 158, 158); 
+    /* margin-right: 0px; */
+  }
+
+  .checkmark-horizontal{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right:0px;
+    height: 18px;
+    width: 18px;
+    background-color: #eee; 
+    border-radius: 50%; 
+    border-style: solid; 
+    border-color: rgb(158, 158, 158); 
+    /* margin-right: 0px; */
+  }
+
+ 
+  .radio_border input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* .radio_border:hover input ~ .checkmark {
+    background-color: #ccc;
+  } */
+  
+  /* When the radio button is checked, add a blue border */
+   .radio_border input:checked ~ .checkmark {
+    border-color: rgb(47, 224, 222);
+  }
+   
+  .radio_border input:checked ~ .checkmark-horizontal {
+    border-color: rgb(47, 224, 222);
+  }
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+  }
+
+  .checkmark-horizontal:after {
+    content: "";
+    position: absolute;
+    display: none;
+    
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .radio_border input:checked ~ .checkmark:after {
+    display: block;
+    
+  }
+
+  .radio_border input:checked ~ .checkmark-horizontal:after {
+    display: block;
+    
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .radio_border .checkmark:after  {
+     top:3px;
+      left: 3px;
+      width: 8px;
+      height: 8px;
+      border-radius: 80%;
+      background: rgb(47, 224, 222);
+      
+  }
+
+  .radio_border .checkmark-horizontal:after  {
+    top:3px;
+     left: 3px;
+     width: 8px;
+     height: 8px;
+     border-radius: 80%;
+     background: rgb(47, 224, 222);
+     
+ }
+
+.boxed-radio-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    /* padding: 5px; */
+  }
+
+  
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 25px;
+    justify-content: space-between;
+    
+}
+  .horizontal-radio-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center!important;
+    align-items: center !important;
+    width: 150px;
+    
+
+  }
+
+  .horizontal-radio-button-long{
+    display: flex;
+    flex-direction: row;
+    justify-content: center!important;
+    align-items: center !important;
+    width: 200px;
+    padding-left: 530px;
+    margin-right: 10px;
+    /* margin-left: 100px;  */
+  }
+
+  .horizontal-radio-button-long >*{
+    /* padding: 5px; */
+    /* padding-left: 27px;
+    padding-right: 52px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+ 
+  .horizontal-radio-button >*{
+    /* padding: 5px; */
+    /* padding-left: 27px;
+    padding-right: 52px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 150%;
+    text-align: center;
+  }
+
+
+  .vertical-radio-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;    
+  }
+
+  .vertical-radio-button >*{
+    /* padding: 5px; */
+    /* padding-left: 27px;
+    padding-right: 52px; */
+    padding-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 125px;
+    /* padding-bottom: 16px; */
+    width: 200%;
+    text-align: left;
+    
+  }
+
+  .vertical-radio-button-margin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;    
+  }
+
+  .vertical-radio-button-margin >*{
+    /* padding: 5px; */
+    /* padding-left: 27px;
+    padding-right: 52px; */
+    padding-top: 16px;
+    margin-bottom: 10px;
+    margin-left: 107px;
+    /* padding-bottom: 16px; */
+    width: 200%;
+    text-align: left;
+    
+  }

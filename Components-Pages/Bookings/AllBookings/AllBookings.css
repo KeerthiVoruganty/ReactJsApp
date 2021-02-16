@@ -1,0 +1,309 @@
+.BookingBox{
+  height: 150px;
+  border: 2px solid dodgerblue; 
+  margin: 0.5em 0 0.5em 0;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1em
+}
+
+.BookingBox p {
+  width: 100px;
+}
+.create-invoice-button{
+  position: fixed !important;
+  z-index: 4;
+  width: 80px !important;
+  height: 80px !important;
+  border-radius: 50% !important;
+  min-width: unset !important;
+  max-width: none;
+  left:10%;
+  bottom:45%;
+  font-size: 12px !important;
+  background: #0ce4d2;
+  background-image: none !important;
+}
+.create-invoice-button:active{
+  color: #fff;
+  background-color: #0ce4d2 !important;
+  border:none;
+}
+.create-invoice-button:hover{
+  color: #fff;
+  background-color: #0ce4d2 !important;
+  border:none;
+}
+.create-invoice-button:focus{
+  box-shadow: none;
+}
+
+.transition + label:before {
+  transition: .05s all ease-in-out;
+}
+/* Checkbox
+input[type="checkbox"].check-filter-invoice{
+    position: absolute;
+    opacity: 0 !important;
+}
+input[type="checkbox"].check-filter-invoice + label   {
+    cursor: pointer;
+    font-size: .9rem;
+}
+.check-filter-invoice + label:before {
+    content: '';
+    margin-top: -2px;
+    margin-left: -20px;
+    margin-right: 5px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    background: #E3EDF9;
+    transition: .2s all ease-in-out;
+}
+.check-filter-invoice:checked + label:before {
+    background: #36d04c;
+}
+.check-filter-invoice:checked + label:after {
+    font-family: "Material Design Icons";
+    color: #FFFFFF;
+    position: absolute;
+    top: -2px;
+    left: 3px;
+    font-size: 14px;
+    content: "\F12C";
+} */
+
+/*      SEARCHBAR     */
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 50px;
+  background-color: #6ea2a5;
+  border-radius: 50px;
+  padding: 6px;
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  }
+
+  .search_input:focus{
+    box-shadow: none !important;
+  }
+
+  .search_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  caret-color:#3f525f;
+  box-shadow: none;
+  transition: width 0.4s linear;
+  width : 80%
+  }
+
+  #all-teachers-search.searchbar:hover > .search_icon{
+  position: absolute;
+  top: 5px;
+  left: 184px;
+  }
+  .searchbar:hover > .search_icon{
+    background: white;
+    color: #3f525f;
+  }
+
+
+  .search_icon{
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  color:white;
+  }
+
+  .search-label{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    font-size: initial;
+    color: #4f5356 !important;
+  }
+
+  a:not([href]):not([tabindex]){
+    color: white;
+  }
+
+  .filter-search-icon{
+    font-size: 25px;
+  }
+
+
+/* 
+  .availability-table-header {
+    cursor: pointer;
+  } */
+/* 
+  .availability-table-header .active{
+    box-shadow: linear-gradient(to left, #34f1c8 0%, #3bb4d8 100%);
+    
+} */
+
+  .align-vertical{
+    vertical-align: top;
+    width: 33%;
+  }
+  
+  .table-width{
+    min-width: 25%;
+    margin: 2%;
+  }
+
+
+/* Page numbers */
+
+  /* Page numbers */
+ /* .table-pagination {
+    position: inherit;
+    margin: 25px 0px;
+    text-align: center;
+    width: 100%;
+  }
+  .table-pagination span {
+    cursor: pointer;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    background-color: white;
+    align-content: center;
+  }
+
+  .availability-table{
+    text-align: center;
+  }
+
+  .table-pagination .hover-color:hover{
+    background-color:lightgrey;
+  }
+
+
+  .table-pagination .isActive {
+    margin: 0 2px;
+    background-color: #0099FF;
+    color: white;
+    border: 2px solid #0099FF;
+    box-shadow:  0 0 5px #000000;
+  }
+
+  .pagination-boxes{
+    width: 34%;
+  }
+
+  .page-toggle{
+    width: 33%;
+  }
+
+.align-vertical, .pagination-boxes, #right {display: inline-block; *display: inline; zoom: 1; vertical-align: top; font-size: 12px;}
+*/
+/* For bottom  */
+.ui.divider{
+  margin: 0;
+}
+
+.triple-buttons-for-bookings{
+    text-align: center;
+    top: 4px;
+    margin-bottom: 20px;
+}
+
+.bookings-bottom{
+  margin-top: 21px;
+  padding-bottom: 200px;
+}
+.choose-bookings-types a:hover{
+  color: black;
+}
+.rows-per-page-show-1{
+  text-align: right;
+  font-size: 15px;
+  color: rgba(0,0,0,.7);
+  position: relative;
+  top: 9px;
+
+}
+.rows-per-page-show-2{
+    text-align: center;
+}
+
+
+.pages-left-right{
+  font-size: 23px;
+  color: rgba(0,0,0,.5);
+  position: relative;
+  top: 6px;
+}
+
+.pages-left:hover{
+  color: black;
+}
+
+.pages-right:hover{
+  color: black;
+}
+
+.bookings-bottom-pagination{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ui.selection.dropdown{
+  padding: 0;
+
+}
+
+
+#choose-bookings-types-all {
+  background: #3bb4d8 ;
+  border-color: #126e8a ;
+}
+#choose-bookings-types-past {
+  background: Gray;
+}
+#choose-bookings-types-future {
+  background: #DFE1E2;
+}
+
+#choose-bookings-types-all a{
+  color: black;
+}
+
+#choose-bookings-types-past a{
+  color: rgba(0,0,0,.6);
+}
+#choose-bookings-types-future a{
+  color: rgba(0,0,0,.6);
+}
+
+
+
+
+

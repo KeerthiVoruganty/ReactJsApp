@@ -1,0 +1,50 @@
+.menu-bar-wrapper{
+    background: linear-gradient(90deg, #57eacb 0%, rgb(47, 224, 222) 51%, #3bb4d8 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px
+
+}
+
+.component-home-logo{
+    box-shadow: 2px 2px 20px #fff ;
+    border-radius: 40px;
+    margin-left: 25px;
+    max-height: 40px;
+}
+
+.drop-down-box-menuBar{
+    font-size: 21px;
+    padding: 5px 30px;
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+
+    .drop-down-box-menuBar{
+        font-size: 18px;
+        padding: 3px 15px;
+    }
+    .menu-bar-wrapper{
+        min-height: 50px
+    }
+}
+
+@media screen and (max-width: 320px){
+
+    .drop-down-box-menuBar{
+        font-size: 15px;
+        padding: 3px 10px;
+    }
+
+    .component-home-logo{
+        max-height: 30px;
+        margin-left: 15px;
+    }
+
+    .menu-bar-wrapper{
+        min-height: 42px
+    }
+}

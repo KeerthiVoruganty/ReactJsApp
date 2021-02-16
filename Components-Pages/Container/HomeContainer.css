@@ -1,0 +1,326 @@
+.wrapper-homeContainer{
+    background: linear-gradient(-45deg, #6eaeda7a, #75cad24a, #51d4b666, #74f9db85),
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAAAAAAdwx7eAAADi0lEQVR4Ae3Zz3KkOAwG8Lz/a05XA4nkfxL+PLfFEMZVExQzS3PYrfkuND78ijRtW1befr445Vfeym15+/mfp105iHsJPVH5EppeQw9fbBou01DV8j40e5eH96KquEDLj8eD89TsXZ4yPx4/pNgBOvSjAGh2kwGUh0lHgBkI39J4Pp+8203mZRg27UJKEgObdHXwnHMuzd7kkvP8BBWTZngHNmk3Te8ZT3xM0zQOwyBliSwfxmXgA0/k92lyBi0iyaa3ByRMwxYp3ld6zQTa/hTzqT1MerfLTqcyDCXtdLHlSnsib9HN3ukpq7YbW640rTHoZo+rNVauep+3plzjN9rZ9GZvlNZHrbJudpXNgKvMsOlmj1o+xbHo2JOTRBKhqMmmm90ymnLkNQ6qkZZEFTheEw7pIpKminlZ4uunKYmUg4SqEHGMjpjJxchEqwxzl8nVluJckSrnchhEJHhawwDTGo+EaNE0odrihsFJlXUMRzInL6sszGACk6y2OGEc0x/jb7QM3qLDShOD+Qxd8PsXgnIUJAjC0ReScPE14k9fI7WfXOfHl9waD82RiCmqwG9j8VVTJlhTxpjo4zbRh+sT/e7l6fqiesNWEIh8bwNjawPj7zew4P/1tpuvbLs1jGcGvhYLwPwEFyu8Fwu9Eoe+ljj0fYnDVolzvTALADNK7JSTdFxO0sVyEiJiFcEigvtL9/sPHPcfk/5v58a/9F/anAPXaWPmXqeN9eYy3WsV2DRKQaoXK/1WgUWnBOYAn026vyNZNGmSmMim+60Ck569S9Gm+60Cm1ZRkz7fKjCemkz6bKvAoJmI2KDP1ocGvcWi+1WtSSuRVY6frsUNGkLsmGDTp1oFjUbeUpRnYiGeCb/GWs6fexqdmdYEzPNW52s7D1q23SpodLXjkmoyE6d6rTfLWGpy/4x5RIM1zL5qRKwq2ydKKcVwRHdbBY3mFFKgigXKgTSROFqiTjgdwb1WQaOVlJWJyBMFCcrE/OVE32sVHNMF8zwrbQn7S+VZZ21yr1VwTMN/YjrLhq7XmnTxNea0BRpmorDQDN3HSku/VWDPxlmUfGKGFiOnp4xxoqdgw/1WQX/le/XydOOimkiZfLxnK5g1zCZ9tlVg0JyCRZ9uFRi0erXok60Cg/ag5DKbdL9VYNEZRRn18vLCrJteq+AC3W8V3Fe633/guP+YdEPeym258V/0/wBMVzx7WRjw8AAAAABJRU5ErkJggg==');
+    /* height: 100vh; */
+    /* background-size: 400% 400%; */
+    /* background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAAAAAAdwx7eAAADi0lEQVR4Ae3Zz3KkOAwG8Lz/a05XA4nkfxL+PLfFEMZVExQzS3PYrfkuND78ijRtW1befr445Vfeym15+/mfp105iHsJPVH5EppeQw9fbBou01DV8j40e5eH96KquEDLj8eD89TsXZ4yPx4/pNgBOvSjAGh2kwGUh0lHgBkI39J4Pp+8203mZRg27UJKEgObdHXwnHMuzd7kkvP8BBWTZngHNmk3Te8ZT3xM0zQOwyBliSwfxmXgA0/k92lyBi0iyaa3ByRMwxYp3ld6zQTa/hTzqT1MerfLTqcyDCXtdLHlSnsib9HN3ukpq7YbW640rTHoZo+rNVauep+3plzjN9rZ9GZvlNZHrbJudpXNgKvMsOlmj1o+xbHo2JOTRBKhqMmmm90ymnLkNQ6qkZZEFTheEw7pIpKminlZ4uunKYmUg4SqEHGMjpjJxchEqwxzl8nVluJckSrnchhEJHhawwDTGo+EaNE0odrihsFJlXUMRzInL6sszGACk6y2OGEc0x/jb7QM3qLDShOD+Qxd8PsXgnIUJAjC0ReScPE14k9fI7WfXOfHl9waD82RiCmqwG9j8VVTJlhTxpjo4zbRh+sT/e7l6fqiesNWEIh8bwNjawPj7zew4P/1tpuvbLs1jGcGvhYLwPwEFyu8Fwu9Eoe+ljj0fYnDVolzvTALADNK7JSTdFxO0sVyEiJiFcEigvtL9/sPHPcfk/5v58a/9F/anAPXaWPmXqeN9eYy3WsV2DRKQaoXK/1WgUWnBOYAn026vyNZNGmSmMim+60Ck569S9Gm+60Cm1ZRkz7fKjCemkz6bKvAoJmI2KDP1ocGvcWi+1WtSSuRVY6frsUNGkLsmGDTp1oFjUbeUpRnYiGeCb/GWs6fexqdmdYEzPNW52s7D1q23SpodLXjkmoyE6d6rTfLWGpy/4x5RIM1zL5qRKwq2ydKKcVwRHdbBY3mFFKgigXKgTSROFqiTjgdwb1WQaOVlJWJyBMFCcrE/OVE32sVHNMF8zwrbQn7S+VZZ21yr1VwTMN/YjrLhq7XmnTxNea0BRpmorDQDN3HSku/VWDPxlmUfGKGFiOnp4xxoqdgw/1WQX/le/XydOOimkiZfLxnK5g1zCZ9tlVg0JyCRZ9uFRi0erXok60Cg/ag5DKbdL9VYNEZRRn18vLCrJteq+AC3W8V3Fe633/guP+YdEPeym258V/0/wBMVzx7WRjw8AAAAABJRU5ErkJggg=="); */
+    /* background-image: url(../../assets/img/logo_x_pattern.png); */
+    /* animation: Gradient 15s ease infinite; */
+    /* opacity: 0.55; */
+    height: -webkit-fill-available;
+    padding-bottom: 50px;
+    margin-top: 53px;
+}
+
+.view-bar-main{   
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    height: 54px;
+}
+.body-main-page{
+    background: #f9f6f6;
+    position: relative;
+    height: auto;
+    margin: 200px 25px 50px 25px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 6px;
+    padding-top: 40px;
+}
+
+.profile-resume-body-wrapper{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+    
+.profile-photo-box{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: -170px;
+    left: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #ffffff;
+}
+
+.profile-photo{
+     width: 250px;
+   position: relative;
+}
+
+.upload-avatar-button {
+    position: absolute;
+    color: black;
+    z-index: 100;
+    font-size: 37px;
+    top: 25px;
+    left: 300px;
+  }
+
+.teacher-personal-info {
+    position: absolute;
+    top: -120px;
+    left: 430px;
+    color: white ! important;
+    font-size: 31px;
+    line-height: 50px;
+}
+
+.teacher-title-and-location{
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.whereby-button {
+    width: 50px;
+    height: 50px;
+    background-image: url(../../assets/img/whereby.jpeg);
+    background-size: contain;
+    z-index: 2;
+    position: relative;
+    top: 30px;
+  }
+
+
+.share-button-hc{
+    position: absolute;
+    right: 60px;
+    top: -150px;
+}
+
+.primiry-share-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #3bb4d8;
+    color: white;
+    box-shadow: 0 1px 14px 0 rgba(0, 0, 0, 0.24);
+    border-color: #3bb4d8;
+}
+
+.mdi-share{
+    font-size: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+
+}
+
+/*Media for ipad & phone ######################################################################################################*/
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media screen and (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media screen and (max-width: 1280px) {
+    
+   
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media screen and (max-width: 1024px) {
+
+    .body-main-page{
+        padding-top: 12px;
+    }
+    
+    .profile-photo-box{
+        width: 200px;
+        height: 200px;
+        top: -135px;
+        left: 75px;
+    }
+    
+    .profile-photo{
+        width: 200px;
+    }
+
+    .teacher-personal-info {
+        left: 310px;
+    }
+
+    
+  }
+
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 601px to 768px
+  */
+  
+  @media screen and (max-width: 768px) {
+    /* .teacher-profile-wrapper{
+        margin-top: 20px;
+    } */
+
+    .profile-photo-box{
+        width: 170px;
+        height: 170px;
+        top: -115px;
+    }
+    
+    .profile-photo{
+        width: 170px;
+    }
+    
+    .teacher-personal-info {
+        top: -112px;
+        left: 270px;
+        font-size: 28px;
+        line-height: 45px;
+    }
+    
+    .teacher-title-and-location{
+        font-size: 19px;
+    }
+
+    .whereby-button {
+        width: 45px;
+        height: 45px;
+      }
+}
+  
+  
+  
+  /* 
+    ##Device =  Mobiles (Landscape)
+    ##Screen = B/w 481px to 600px
+  */
+  
+  @media screen and (max-width: 600px) {
+    .wrapper-homeContainer{
+        margin-top: 45px;
+        padding-bottom: 20px;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media screen and (max-width: 480px) {
+
+   
+    .profile-photo-box{
+        width: 100px;
+        height: 100px;
+        top: -75px;
+        left: 25px;
+        border: 3px solid #ffffff;
+    }
+
+    .profile-photo{
+        width: 100px;
+    }
+
+    .body-main-page{
+        margin: 115px 10px 20px 10px;
+        padding-top: 18px;
+    }
+    
+    .share-button-hc{
+        right: 15px;
+        top: -85px;
+    }
+    
+    .primiry-share-button{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .mdi-share{
+        font-size: 27px;
+        height: 27px;
+    }
+
+    .teacher-personal-info {
+        top: -72px;
+        left: 132px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .teacher-title-and-location{
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .whereby-button {
+        width: 30px;
+        height: 30px;
+        left: 15px;
+        
+      }
+  }
+
+  /* 
+    ##Device = Small Smartphones Mobiles (Iphone 5, SE) Portrait
+    ##Screen = max 320px
+  */
+  
+  @media screen and (max-width: 320px) {
+
+    .wrapper-homeContainer{
+        margin-top: 39px;
+    }
+    
+    .teacher-personal-info {
+        left: 100px;
+        top: -85px;
+        font-size: 15px; 
+    }
+
+    .profile-photo-box{
+        width: 80px;
+        height: 80px;
+        top: -56px;
+        left: 20px;
+    }
+
+    .profile-photo{
+        width: 80px;
+    }
+
+    .share-button-hc{
+        right: 10px;
+        top: -80px;
+    }
+    
+    .primiry-share-button{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mdi-share{
+        font-size: 24px;
+        height: 24px;
+    }
+    
+}

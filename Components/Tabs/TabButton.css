@@ -1,0 +1,71 @@
+
+
+.tabButton{
+    background-image: url("https://svgshare.com/i/J5j.svg");
+    height: 34px;
+    width: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+  }
+  .tabButtonActive{
+    background-image: url(https://svgshare.com/i/J4R.svg);
+  }
+
+  .tabButtonDisabled {
+    pointer-events: none;
+  }
+
+  .tabButtonDisabled a {
+    color: gray !important;
+  }
+
+  .tabButton a{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+
+  .buttonTabGroup{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: -34px;
+    right: 10px;
+  }
+
+  .buttonTabGroupMobile {
+    display: none;
+  }
+
+  @media (max-width:900px) and (min-width:300px) {
+    .tabButton {
+      width: 160px;
+      height: 40px;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .buttonTabGroup {
+      display: none;
+    }
+
+    .buttonTabGroupMobile {
+      display: block;
+      position: absolute;
+      top: -34px;
+      right: 0px;
+    }
+
+    .mobileTabMenu .dd-menu-items {
+      width: unset !important;
+      min-width: 150px;
+    }
+  }

@@ -1,0 +1,207 @@
+.top-fix-header{
+  width: 100%;
+  height: 100px;
+  /* background-image:url(back.jpg); */
+  background-size: cover;
+}
+
+.top-fix-navbar{
+  width: -webkit-fill-available;
+  width: -moz-available;
+  background: linear-gradient(90deg, #57eacb 0%, rgb(47, 224, 222) 51%, #3bb4d8 100%)!important;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+  z-index: 6;
+
+}
+
+.box{
+  width: 100%;
+  height: 2px;
+  background: green;
+  margin: 20px auto;
+}
+
+/*  dropdown  */
+.navicon {
+    width: 100%;
+    background: transparent;
+    margin: 80px auto 40px;
+    position: relative;
+    height: 30px;
+    width: 50px;
+    display: block;
+    z-index: 99;
+    transition: linear 0.5s all;
+}
+.navicon:before,
+.navicon:after {
+  background: #fff;
+  backface-visibility: hidden;
+  content: "";
+  height: 3px;
+  left: 0;
+  transition: 0.8s ease;
+  width: 45px;
+}
+.navicon:before {
+  box-shadow: #fff 0 14px 0 0;
+  position: absolute;
+  top: 0;
+}
+.navicon:after {
+  position: absolute;
+  top: 28px;
+}
+.navicon--active {
+  margin-top: 20px;
+  transition: linear 0.5s all;
+}
+.navicon:before {
+  box-shadow: transparent 0 0 0 0;
+  top: 15px;
+  transform: rotate(225deg);
+}
+.navicon:after {
+  top: 15px;
+  transform: rotate(315deg);
+}
+
+
+
+.toggle {
+  display: block;
+  margin: 20px auto;
+  width: 30%;
+  background-color: rgba(255, 255, 255, .8);
+  padding: 15px;
+  display: block;
+  opacity: 0;
+  transition: ease-in 0.5s all;
+  transform: translateY(-200%);
+  min-width: 320px;
+}
+
+.toggle--active {
+  display: block;
+  opacity: 1;
+  transition: ease-in 0.5s all;
+  transform: translateY(0);
+}
+.toggle__menu {
+  margin-bottom: 25px;
+}
+.toggle li {
+  width: 25%;
+  display: block;
+  margin: 10px auto;
+}
+
+.toggle li  a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: linear 0.5s all;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.toggle li  a  span {
+  text-transform: lowercase;
+}
+
+.toggle li  a  span :hover {
+  color: #db5523;
+  border-bottom: 2px solid #db5523;
+  transition: linear 0.5s all;
+  transform: scale(1.15);
+  font-weight: 700;
+}
+
+
+.social {
+display: block;
+width: 70%;
+margin: 25px auto;
+text-align: center;
+font-size: 0;
+}
+.social li {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+.social li  a {
+    text-align: center;
+    color: #000;
+    font-size: 25px;
+    transition: linear 0.5s all;
+}
+.social li  a:hover {
+  color: #db5523;
+  transition: linear 0.5s all;
+}
+
+/* .drop-down-box {
+  width: 200px;
+} */
+
+.drop-down-admin span{
+  position: relative;
+  top: 10px;
+  left: -47px;
+  font-size: 10px;
+}
+
+
+.status-bar{
+  width: 50%;
+  height: 20px;
+  background: rgb(242,0,3);
+  background: linear-gradient(87deg, rgba(242,0,3,1) 0%, rgba(236,229,96,1) 33%, rgb(138, 241, 255) 57%, rgb(106, 205, 245) 71%, rgba(0,255,100,1) 100%);
+  border-radius: 7px;
+  color: white;
+}
+.status-bar-badge{
+  border-radius: 50%;
+  border: solid 2px;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.status-bar-0{
+  top: -10px;
+  left: -10px;
+}
+.status-bar-25{
+  top: -50px;
+  left: 25%;
+}
+.status-bar-50{
+  top: -90px;
+  left: 50%;
+}
+.status-bar-75{
+  top: -130px;
+  left: 75%;
+}
+.status-bar-100{
+  top: -170px;
+  left: 98%;
+}
+
+.logo-position-jump{
+  position: absolute;
+  z-index: 99;
+}
+
+.menu-area-container {
+  z-index: 999;
+}

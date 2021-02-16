@@ -1,0 +1,156 @@
+.btn-social button {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-social i {
+  font-size: 28px;
+}
+
+.btn-social button {
+  line-height: 21px;
+}
+
+.btn-social button:hover {
+  text-shadow: 0 0 10px cyan;
+}
+
+.google-button span {
+  margin: auto
+}
+
+
+/*
+
+this piece of code, stops the inputs from working...
+please check what's for! :)
+
+.form-group .mdi-lock,
+.form-group .mdi-email {
+  width: 100%;
+  margin-bottom: 10px;
+}*/
+
+.form-group .input-icon i {
+  position: absolute;
+  margin: 9px 12px;
+  line-height: 22px;
+}
+.form-group .input-icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px; 
+  /* box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF; */
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF !important;
+}
+.form-group textarea {
+  width: 100%;
+  padding: 10px; 
+  /* box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF; */
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF;
+}
+
+.form-group .mdi-eye {
+  position: absolute;
+  line-height: 24px;
+} 
+
+.dropdown-box{
+  /* box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF; */
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF;
+  padding-left: 40px ;
+  margin-bottom: 4px;
+}
+
+.dropdown-box select{
+  border: none;
+}
+
+.form-control:focus{
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF !important;
+  /* border-color: #10AFFF; */
+
+}
+
+.form-group .form-control{
+  box-shadow: inset 0 0 0 1px #fff, 1px 1px 2px #1beabd, 1px 1px 8px #10AFFF !important;
+  width: 100%;
+  
+  /* border-color: #10AFFF;  */
+}
+
+.form-group label{
+  margin-bottom: 0px;
+}
+
+.form-group .input-icon{
+  padding: 0px; 
+}
+.form-group .input-icon i{
+  margin: 0px;
+}
+
+.login-button{
+  width: 100% !important; 
+  height: 40px !important;
+  margin-left: 0 !important;
+  font-size: 15px !important;
+}
+
+.google-button{
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  align-items: center;
+  color: rgba(103, 98, 98, 0.83);
+  box-shadow: insite 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  padding: 0px;
+  border-radius: 2px;
+  border: 1px solid #b1edff;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  opacity: 1;
+}
+#emailandpass-login-form {
+  display: block;
+}
+.terms-and-conditions-check{
+  padding: 0;
+}
+
+.login-welcome-back{
+  margin-bottom: 10px ;
+  text-align: center;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.login-divider-google-and-email{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.google-button-style{
+  width: 200px;
+}
+.login-link-to-create-account{
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.login-forgot-password{
+  text-align: right;
+  margin: auto;
+}
+.padding-for-login-form {
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.btn-login-submit{
+  width: 300px;
+}

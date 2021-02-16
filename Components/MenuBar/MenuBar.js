@@ -1,0 +1,29 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./MenuBar.css";
+import Menu from "./Menu";
+
+
+export default function MenuBar(props) {
+    const { isViewAsTeacher } = props;
+
+
+    const btn_jump_profile = (e) => {
+        e.preventDefault();
+        this.props.history.push("/home2");
+    };
+
+    return (
+        <div className="menu-bar-wrapper">
+            <Link title="Ready Teacher" to="/home2" onClick={btn_jump_profile}>
+                <img src="data:image/png;base64,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"
+                 alt="logo" className="component-home-logo"/>
+            </Link>
+            {
+                (isViewAsTeacher) ? <Menu /> : null
+            }
+        
+        </div>
+
+    )
+}

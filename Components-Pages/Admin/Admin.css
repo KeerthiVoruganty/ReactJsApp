@@ -1,0 +1,43 @@
+
+.light-blue-border{
+    width: -webkit-fill-available;
+    border-bottom: solid 1px rgb(56, 212, 222);
+}
+
+.profile-link{
+    font-size: 20px;
+    line-height: 0px;
+    color: #3bb4d8;
+}
+
+.adminBottomNavigation{
+    display: block;
+    position: relative;
+    top: -60px;
+    display: flex;
+    
+}
+
+.w-fillava{
+    width: -webkit-fill-available;
+}
+.font-25{
+    font-size: 25px;
+}
+
+.similar-to-h4-style{
+    font-size: 1.4rem ;
+}
+
+.similar-to-h4-style-1{
+    font-size: 0.8rem ;
+}
+
+.behind-user-links{
+    background: white;  
+    z-index: 1;
+}
+
+.h-40{
+    height: 40px !important;
+}

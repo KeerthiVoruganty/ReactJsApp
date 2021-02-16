@@ -1,0 +1,22 @@
+@media (max-width:500px) and (min-width:300px) {
+    .login-form-container{
+        padding: 0px !important;
+    }
+    .secondary-register-box .auth-left{
+        display: -webkit-box !important;
+    }
+    .popup_innerConfirmNumber{
+        position: fixed;
+        width: 70%;
+        height: auto;
+    }
+    .padding-for-mobile{
+        margin-top: 10px;
+        padding-right: 15px !important;
+    }
+    .popup_innerConfirmNumber{
+        position: fixed;
+        width: 70%;
+        height: auto;
+    }
+}

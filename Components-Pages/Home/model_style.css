@@ -1,0 +1,390 @@
+/*  CanDeliverForm model style */
+
+@media screen  and (min-width: 300px){
+
+    .btn-c {
+        margin: 5px 0;
+    }
+}
+
+@media screen  and (min-width: 500px){
+
+    .upload-avatar-form-box{
+        justify-content: center;
+    }
+
+    .upload-button-box{
+        margin-top: 50px;
+    }
+
+    .model-for-addform .dot {
+        position: absolute;
+        top: 1%;
+        right: -18%;
+        background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+    }
+
+    .model-for-addform .form-control{
+        box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF;
+        margin-bottom: 6px;
+    }
+
+
+    .model-for-addform{
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 10%;
+        width: 50%;
+        min-width: 400px;
+        height: 480px;
+        right: 12%;
+        background: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px #909092;
+    }
+
+
+    .model-for-addform .modal-header{
+        color: #79CBCA !important;
+        margin: 0 auto;
+        padding-top: 40px;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    .model-for-addform .main-content-select{
+        margin-top: 10px;
+    }
+
+
+    .model-for-addform .modal-content{
+        background: whitesmoke ;
+        border: none;
+    }
+
+    .model-for-addform .qualification-footer{
+        margin-top: 40px;
+    }
+
+    /*  DeletePopup model style */
+    .model-for-deleteform .dot{
+        position: absolute;
+        top: 1%;
+        right: -18%;
+        background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+    }
+
+    .model-for-deleteform .form-control{
+        box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF;
+        margin-bottom: 6px;
+    }
+
+
+    .model-for-deleteform{
+        position: absolute;
+        margin-left: 30%;
+        margin-top: 10%;
+        width: 40%;
+        height: 325px;
+        background: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px #909092;
+    }
+
+
+    .model-for-deleteform .modal-header{
+        color: #79CBCA !important;
+        padding-top: 40px;
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+    .model-for-deleteform .main-content-word{
+        margin-top: 40px;
+        font-size: 15px;
+        color: #5e5e5e;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+
+    .model-for-deleteform .modal-content{
+        background: whitesmoke ;
+        border: none;
+    }
+
+    .model-for-deleteform .qualification-footer{
+        margin-top: 40px;
+    }
+
+    .form-control{
+        padding-top: 0;
+        padding-bottom:0;
+    }
+    .position-above-cancel{
+        position: relative;
+        top: -73px;
+    }
+
+    /* upload avatar */
+    .model-for-upload-avatar-form .dot {
+        position: absolute;
+        top: 1%;
+        right: -4%;
+        background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+    }
+
+    .model-for-upload-avatar-form .form-control{
+        box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF;
+        margin-bottom: 6px;
+    }
+
+
+    .model-for-upload-avatar-form{
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 10%;
+        width: 50%;
+        min-width: 400px;
+        height: 580px;
+        right: 12%;
+        background: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px #909092;
+    }
+
+
+    .model-for-upload-avatar-form .modal-header{
+        color: #79CBCA !important;
+        margin: 0 auto;
+        padding-top: 40px;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+
+    .model-for-upload-avatar-form .modal-content{
+        margin-left: 12%;
+        background: whitesmoke ;
+        border: none;
+    }
+    .model-for-upload-avatar-form .Upload-Avatar-Button{
+        position: absolute;
+        width: 120px;
+        top: 320px;
+        left: 100px;
+    }
+
+    /* Hire Me*/
+    .model-for-hire-me-form .dot {
+        position: absolute;
+        top: 1%;
+        right: -4%;
+        background: linear-gradient(to bottom left, #3eb5bb 40%, #9effe4 100%);
+    }
+
+    .model-for-hire-me-form .form-control{
+        box-shadow: inset 0 0 0 3px #fff, 1px 1px 10px #1beabd, 1px 1px 10px #10AFFF;
+        margin-bottom: 6px;
+    }
+
+
+    .model-for-hire-me-form{
+        position: absolute;
+        margin-left: 12%;
+        margin-top: 10%;
+        width: 53%;
+        min-width: 400px;
+        height: 600px;
+        right: 12%;
+        background: whitesmoke;
+        border-radius: 20px;
+        box-shadow: 5px 5px 20px #909092;
+    }
+
+
+    .model-for-hire-me-form .modal-header{
+        color: #79CBCA !important;
+        margin: 0 auto;
+        padding-top: 40px;
+        font-size: 24px;
+        font-weight: 100;
+        letter-spacing: 3px;
+        border: none;
+        text-transform: uppercase;
+    }
+
+
+    .model-for-hire-me-form .modal-content{
+        margin-left: 12%;
+        background: whitesmoke ;
+        border: none;
+    }
+    .model-for-hire-me-form .Upload-Avatar-Button{
+        position: absolute;
+        width: 120px;
+        top: 320px;
+        left: 100px;
+    }
+
+    .hire-me-bottom-box{
+        margin-top: 50px;
+    }
+    .hire-me-content-box{
+        margin-top: 5px;
+    }
+
+
+}
+
+@media screen  and (min-width: 576px){
+    .modal-open .modal{
+    }
+    .model-for-addform .dot {
+        top: -2%;
+        right: -9%;
+    }
+
+    .model-for-addform{
+        margin-left: 22%;
+    }
+
+    .model-for-deleteform .dot{
+        top: -2%;
+        right: -9%;
+    }
+
+    .position-above-cancel{
+        position: relative;
+        top: -73px;
+    }
+
+    /*for upload avatar */
+    .model-for-upload-avatar-form .dot {
+        top: -2%;
+        right: -9%;
+    }
+
+    .model-for-upload-avatar-form .modal-content{
+        margin-left: 0;
+    }
+
+    /* hire me */
+    .model-for-hire-me-form .dot {
+        top: -2%;
+        right: -9%;
+    }
+
+    .model-for-hire-me-form .modal-content{
+        margin-left: 0;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .upload-button-box{
+        margin-top: 20px;
+    }
+    .model-for-addform .dot {
+        top:-3%;
+        right: -9%;
+    }
+
+    .model-for-addform{
+        margin-left: 25%;
+    }
+
+    .model-for-deleteform .dot{
+        top:-3%;
+        right: -9%;
+    }
+
+    .position-above-cancel{
+        position: relative;
+        top: 0px;
+    }
+
+    /*for upload avatar */
+    .model-for-upload-avatar-form .dot {
+        top:-3%;
+        right: -9%;
+    }
+    .model-for-upload-avatar-form{
+        margin-left: 22%;
+    }
+
+    /*hire me*/
+    .model-for-hire-me-form .dot {
+        top:-3%;
+        right: -9%;
+    }
+    .model-for-hire-me-form{
+        margin-left: 22%;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+
+    .model-for-upload-avatar-form{
+        margin-left: 26%;
+        height: 510px;
+    }
+
+    .model-for-upload-avatar-form .modal-body {
+        margin-left: 50px;
+    }
+
+    /*hire me*/
+    .model-for-hire-me-form{
+        margin-left: 26%;
+        height: 600px;
+    }
+
+    .model-for-hire-me-form .modal-body {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .model-for-upload-avatar-form .modal-body{
+        margin-left: 0;
+    }
+    .model-for-upload-avatar-form{
+        margin-left: 26%;
+        height: 510px;
+    }
+    .model-for-upload-avatar-form .Upload-Avatar-Button{
+        position: absolute;
+        width: 150px;
+        top: 140px;
+        left: 70%;
+    }
+
+    /* hire me */
+    .model-for-hire-me-form .modal-body{
+        margin-left: 0;
+    }
+    .model-for-hire-me-form{
+        margin-left: 26%;
+        height: 550px;
+    }
+
+    .model-for-deleteform {
+        width: 30%;
+        margin-left: 35%;
+    }
+}

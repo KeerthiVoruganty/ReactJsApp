@@ -1,0 +1,58 @@
+.review-control-bar{
+    background: #006e78;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.role-control-toggle{
+    font-size: 14px;
+    width: 20%;
+    text-align: right;
+    
+}
+
+.role-control-toggle a{
+    color: white;
+}
+
+.review-control-bar-virtual-div{
+    width: 20%;
+    /* min-width: 130px; */
+}
+
+@media only screen and (max-width: 600px){
+    .review-control-bar-virtual-div{
+        display: none;
+    }
+
+    .role-control-toggle{
+        width: 30%;
+    }
+
+    .review-control-bar{
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .role-control-toggle{
+        font-size: 13px;
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .review-control-bar{
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .role-control-toggle{
+        font-size: 12px;
+    }
+    
+}

@@ -1,0 +1,41 @@
+
+h1{
+    margin-bottom: 0%;
+    color: #4f5356 !important;
+}
+
+hr{
+    border-color: #10AFFF;
+    margin-top: 0%;
+}
+
+.logo-container{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -40px;
+}
+
+.logo{
+    border-radius: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px; 
+    min-width: 100px;
+    box-shadow:  2px 2px 20px #fff;
+}
+
+.heading h2{
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.heading .name{
+    text-shadow: 0 0 15px #FFFFFF;
+    margin-left: 10px;
+}
+
+
+.login-form-container{
+    padding-left: 80px;
+    padding-right: 80px;
+}

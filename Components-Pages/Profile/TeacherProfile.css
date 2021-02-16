@@ -1,0 +1,79 @@
+.teacher-profile-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    justify-items: center;
+    margin-top: 50px;
+}
+.qualification-canDeliver-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    justify-items: center;
+}
+.qualification-canDeliver-wrapper >* {
+    width: 49%;
+    /* padding: 2%; */
+}
+
+
+.teacher-profile-wrapper >*{
+    width: 100%;
+    padding: 2%;
+}
+
+
+
+.compliment-profile-box .margin-bottom-for-profile-box{
+    margin-bottom: 0;
+}
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+@media screen and (max-width: 768px) {
+    .teacher-profile-wrapper{
+        margin-top: 20px;
+    }
+
+    .qualification-canDeliver-wrapper{
+        flex-direction: column;
+    }
+
+    .qualification-canDeliver-wrapper >* {
+        width: 98%;
+    }
+
+    .compliment-profile-box .margin-bottom-for-profile-box{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .qualification-canDeliver-wrapper{
+        flex-direction: column;
+    }
+
+    .qualification-canDeliver-wrapper >* {
+        width: 98%;
+    }
+
+    .compliment-profile-box .margin-bottom-for-profile-box{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .resume-container-update-content{
+        font-size: 12px;
+        height: 30px;
+    }
+    
+    hr{
+    margin-bottom: 5px; 
+    }
+
+}
+
+
